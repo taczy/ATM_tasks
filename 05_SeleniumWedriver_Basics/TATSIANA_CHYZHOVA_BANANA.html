@@ -1,0 +1,56 @@
+{
+  "id": "f4be9219-b31e-44a8-8bd0-7202e1841348",
+  "name": "Untitled Project",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "a4bc47f8-a85f-496b-9144-5d807a7bc814",
+    "name": "Untitled",
+    "commands": [{
+      "id": "6ff7321f-ace8-49a8-ad3e-101f3a43d9f7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "value": ""
+    }, {
+      "id": "5cb1268b-33fa-455f-952a-8f25a329c6a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=lst-ib",
+      "value": "Banana Song"
+    }, {
+      "id": "d43206e3-abb4-429e-960b-6f65dc1cc41e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "name=btnK",
+      "value": ""
+    }, {
+      "id": "5d36daf6-0547-4611-8536-8878dbcece24",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//a[contains(@href,'youtube.com')][contains(text(),'Despicable Me ')]",
+      "value": ""
+    }, {
+      "id": "22c9e56c-b03b-4a6a-bfc6-c79c271db0fb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//title[contains(text(),'YouTube')]",
+      "value": ""
+    }, {
+      "id": "eb4afd27-d219-4a60-83f4-3aedb39368d5",
+      "comment": "",
+      "command": "assertText",
+      "target": "//span[@class=\"view-count style-scope yt-view-count-renderer\"]",
+      "value": "^[5-9]\\d.\\d{3}.\\d{3}"
+    }]
+  }],
+  "suites": [{
+    "id": "3e83b297-a7c5-4a41-ab62-121b7ac8db91",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a4bc47f8-a85f-496b-9144-5d807a7bc814"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": [],
+  "version": "1.0"
+}
