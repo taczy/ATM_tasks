@@ -10,8 +10,8 @@ public class WpBlogTest extends BaseTest
 {
 	private static final String WP_BLOG_URL = "https://atmhometask.wordpress.com/";
 	private static final String WP_ADMIN_URL = "https://wordpress.com/wp-login.php";
-	private static final String USER_EMAIL = "epam.tatsiana.chyzhova@gmail.com";
-	private static final String PASSWORD = "jC5%r8p*Ja%Nrd&fn!4rv@";
+	private static final String USER_EMAIL = "";
+	private static final String PASSWORD = "";
 	private static final String BLOG_TITLE = "ATM program";
 	private static final String CATEGORY = "atm-hometask";
 	private static final String TITLE_ADD = "Hello world!";
